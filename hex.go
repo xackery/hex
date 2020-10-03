@@ -23,7 +23,7 @@ func Dump(data []byte) string {
 				continue
 			}
 
-			out += fmt.Sprintf("0x%s\n", strings.ReplaceAll(strings.TrimSpace(strings.ReplaceAll(sub, "  ", " ")), " ", ", 0x"))
+			out += fmt.Sprintf("0x%s,\n", strings.ReplaceAll(strings.TrimSpace(strings.ReplaceAll(sub, "  ", " ")), " ", ", 0x"))
 		}
 	}
 

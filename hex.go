@@ -9,7 +9,7 @@ import (
 )
 
 var (
-	pat = regexp.MustCompile("[0-9]{8}  ([0-9a-z ]+) ")
+	pat = regexp.MustCompile("[0-9a-z]{8}  ([0-9a-z ]+) ")
 )
 
 // Dump takes a byte slice and transforms it
